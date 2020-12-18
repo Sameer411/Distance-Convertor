@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="182dp"
+        android:text=" Enter Distance in Kilo Meters : "
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <EditText
+        android:id="@+id/editTextMiles"
+        android:layout_width="154dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="207dp"
+        android:layout_height="29dp"
+        android:text="Enter Distance In Kilo Meteres : "
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <EditText
+        android:id="@+id/editTextKM"
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/buttonConvMileToKm"
+        android:layout_width="316dp"
+        android:layout_height="73dp"
+        android:text="Convert Distance From Miles To Kilometers "
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/buttonConvKmToMiles"
+        android:layout_width="309dp"
+        android:layout_height="66dp"
+        android:text="Convert Distance From Kilometer To Miles"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="583dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
